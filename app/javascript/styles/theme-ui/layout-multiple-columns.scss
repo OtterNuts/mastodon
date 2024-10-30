@@ -2163,7 +2163,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 .layout-multiple-columns .explore__search-results .icon-button.active:hover .fa::before,
 .layout-multiple-columns .notification .account__relationship .icon-button.active:hover .fa::before {
   /* stylelint-disable-next-line */
-  color: var(--color-red);
+  color: var(--color-dim);
   opacity: 1;
 }
 
@@ -3283,7 +3283,7 @@ body.embed .button.logo-button:hover,
 
 .layout-multiple-columns button.icon-button:hover i.fa-star ~ span,
 .layout-multiple-columns button.icon-button.active i.fa-star ~ span {
-  color: var(--color-red);
+  color: var(--color-dim);
 }
 
 /* Replace reply icon */
@@ -4046,7 +4046,7 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
 
 .icon-button.star-icon.active,
 .notification__favourite-icon-wrapper .star-icon {
-  color: var(--color-red);
+  color: var(--color-dim);
 }
 
 .layout-multiple-columns .detailed-status__action-bar .icon-button:hover .fa-star::before,

@@ -234,10 +234,10 @@ body.theme-default.layout-single-column {
 
   --color-brand-mastodon: #daddde;
   --color-brand-mastodon-links: #daddde;
-  --color-accent-dark-50: #daddde;
+  --color-accent-dark-50: #1f1b23;
 
   --color-accent:#daddde;
-  --color-accent-dark: #daddde;
+  --color-accent-dark: #1f1b23;
 
   --color-border: #daddde;
   --color-dim: #1f1b23;
@@ -268,7 +268,7 @@ body.theme-default.layout-single-column {
   --color-modal-overlay: #6a5b8366;
   --color-dark: #f7f9f9;
   --color-thread-line: #e1e8ed;
-  --color-topaz: #8899a6;
+  --color-topaz: #1f1b23;
 
   --color-dark-electric-blue: #9088a6;
   --color-bg-75: #ffffffbf;
@@ -2186,7 +2186,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 .layout-single-column .explore__search-results .icon-button.active:hover .fa::before,
 .layout-single-column .notification .account__relationship .icon-button.active:hover .fa::before {
   /* stylelint-disable-next-line */
-  color: var(--color-red);
+  color: var(--color-dim);
   opacity: 1;
 }
 
@@ -3294,7 +3294,7 @@ body.embed .button.logo-button:hover,
 
 .layout-single-column button.icon-button:hover i.fa-star ~ span,
 .layout-single-column button.icon-button.active i.fa-star ~ span {
-  color: var(--color-red);
+  color: var(--color-dim);
 }
 
 /* Replace reply icon */
@@ -4100,7 +4100,7 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
 
 .icon-button.star-icon.active,
 .notification__favourite-icon-wrapper .star-icon {
-  color: var(--color-red);
+  color: var(--color-dim);
 }
 
 .layout-single-column .detailed-status__action-bar .icon-button:hover .fa-star::before,
