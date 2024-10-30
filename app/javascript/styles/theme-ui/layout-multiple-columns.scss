@@ -226,7 +226,7 @@ body.theme-default.layout-multiple-columns {
   --color-fg: #000;
 
   --color-border: #e9dee0;
-  --color-dim: #daddde;
+  --color-dim: #1f1b23;
   --color-light-text: #1f1b23;
 
   --color-green: #17bf63;
@@ -253,8 +253,8 @@ body.theme-default.layout-multiple-columns {
   --color-accent: var(--color-accent-dark);
   --color-ghost-button-text: var(--color-accent-dark);
 
-  --color-bg-compose-form: rgb(192 108 128 / .2);
-  --color-bg-compose-form-focus: rgb(192 108 128/ .4);
+  --color-bg-compose-form: rgb(220 223 224 / .2);
+  --color-bg-compose-form-focus: rgb(220 223 224/ .4);
   --color-hashtag: var(--color-accent-dark);
   --color-mention: var(--color-accent-dark);
 
@@ -557,7 +557,7 @@ body.layout-multiple-columns {
 /* URL preview card summary text */
 .layout-multiple-columns .status-card .status-card__host,
 .layout-multiple-columns .status-card .status-card__description {
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 
 /* URL preview card box */
@@ -610,7 +610,7 @@ body.layout-multiple-columns {
 .layout-multiple-columns a.status-card:active .status-card__host,
 .layout-multiple-columns a.status-card:focus .status-card__host,
 .layout-multiple-columns a.status-card:hover .status-card__host {
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 
 /* Show minimal status card if there's no image */
@@ -666,7 +666,7 @@ body.layout-multiple-columns {
 }
 
 .layout-multiple-columns .status-card.expanded .status-card__host {
-  color: var(--color-dim);
+  color: var(--color-light-text);
   font-size: var(--font-size);
   margin-bottom: 0;
   margin-top: 0;
@@ -679,7 +679,7 @@ body.layout-multiple-columns {
 /* Announcements */
 .layout-multiple-columns .announcements__pagination .fa,
 .layout-multiple-columns .announcements__pagination {
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 
 .layout-multiple-columns .announcements__pagination .icon-button:hover i {
@@ -796,7 +796,7 @@ body.layout-multiple-columns {
 /* Content warning placeholder */
 .layout-multiple-columns .compose-form .autosuggest-textarea__textarea::placeholder,
 .layout-multiple-columns .compose-form .spoiler-input__input::placeholder {
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 
 /* Border colors */
@@ -951,7 +951,7 @@ body.embed .status__content a,
 .layout-multiple-columns .confirmation-modal__secondary-button,
 .layout-multiple-columns .mute-modal__cancel-button {
   background-color: transparent;
-  color: var(--color-dim);
+  color: var(--color-light-text);
   font-size: var(--font-size-mid);
 }
 
@@ -1139,7 +1139,7 @@ body.embed .status__content a,
 .layout-multiple-columns .muted .status__content p,
 .layout-multiple-columns .muted .status__display-name strong,
 .layout-multiple-columns .privacy-dropdown__option:not(.active) .privacy-dropdown__option__content {
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 .layout-multiple-columns .navigation-bar .display-name {
   color: var(--color-fg);
@@ -1148,7 +1148,7 @@ body.embed .status__content a,
  
 /* Dim backgrounds */
 .layout-multiple-columns .poll__chart {
-  background-color: var(--color-dim);
+  background-color: var(--color-light-text);
 }
 
 /* Lighter border colors */
@@ -1188,7 +1188,7 @@ body.embed .status__content a,
 .layout-multiple-columns .notification .reply-indicator__content .status__content__spoiler-link,
 .layout-multiple-columns .notification .status__content__spoiler-link {
   background-color: var(--color-dark);
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 
 .layout-multiple-columns .notification .reply-indicator__content .status__content__spoiler-link:focus,
@@ -1196,7 +1196,7 @@ body.embed .status__content a,
 .layout-multiple-columns .notification .status__content .status__content__spoiler-link:focus,
 .layout-multiple-columns .notification .status__content .status__content__spoiler-link:hover {
   background-color: var(--color-dark);
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 
 /* Light purple things */
@@ -1253,7 +1253,7 @@ body.embed .status__content a,
 /* Account names */
 .layout-multiple-columns .status__info .display-name .display-name__account,
 .layout-multiple-columns .display-name__account {
-  color: var(--color-dim);
+  color: var(--color-light-text);
 }
 
 /* Main panel column */
