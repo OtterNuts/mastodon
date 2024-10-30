@@ -8427,7 +8427,6 @@ noscript {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-    aspect-ratio: 1.9;
     border: 0;
     background: $ui-base-color;
     object-fit: cover;
@@ -9064,7 +9063,6 @@ noscript {
     &__hero {
       width: 100%;
       height: auto;
-      aspect-ratio: 1.9;
       background: lighten($ui-base-color, 4%);
       border-radius: 8px;
       margin-bottom: 30px;
