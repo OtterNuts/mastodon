@@ -215,18 +215,18 @@ body.theme-default.layout-multiple-columns {
   --color-column: rgba(255, 255, 255, 0.4);
   --color-columns: rgba(255, 255, 255, 0.5);
 
-  --color-brand-mastodon: #be2a4d;
-  --color-brand-mastodon-links: #df98a2;
-  --color-accent-dark-50: #be2a4d80;
+  --color-brand-mastodon: #daddde;
+  --color-brand-mastodon-links: #daddde;
+  --color-accent-dark-50: #daddde;
 
-  --color-accent:#df98a2;
-  --color-accent-dark: #be2a4d;
+  --color-accent:#daddde;
+  --color-accent-dark: #daddde;
 
   --color-bg: #fff;
   --color-fg: #000;
 
   --color-border: #e9dee0;
-  --color-dim: #c16c80;
+  --color-dim: #daddde;
   --color-light-text: #1f1b23;
 
   --color-green: #17bf63;
@@ -235,7 +235,8 @@ body.theme-default.layout-multiple-columns {
   --color-focusable-toot: rgba(0, 0, 0, 0.035);
 
   --color-light-shade: #00000005;;
-  --color-mud: #f0dee2;
+  --color-mud: #daddde;
+  --color-polarlight-background: #daddde;
 
   --color-black-coral: #9188a6;
 
@@ -981,7 +982,7 @@ body.embed .status__content a,
 
 /* Mud background colors, reply-indicator */
 .layout-multiple-columns .reply-indicator {
-  background-color: var(--color-mud);
+  background-color: var(--color-polarlight-background);
   color: var(--color-light-text);
   max-height: 20vh;
 }
@@ -2216,7 +2217,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 
 /* Search */
 .layout-multiple-columns .search .search__icon .fa-search {
-  background-color: var(--color-mud);
+  background-color: var(--color-polarlight-background);
   background-image: var(--icon-search);
   background-position: center;
   background-repeat: no-repeat;
@@ -2229,8 +2230,8 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 
 .layout-multiple-columns input.setting-text,
 .layout-multiple-columns .search__input {
-  background-color: var(--color-mud);
-  border-color: var(--color-mud);
+  background-color: var(--color-polarlight-background);
+  border-color: var(--color-polarlight-background);
   border-radius: 32px;
   color: var(--color-dim);
   font-size: var(--font-size);
@@ -3360,7 +3361,7 @@ body.embed .button.logo-button:hover,
 }
 
 .layout-multiple-columns .relationship-tag {
-  background-color: var(--color-mud);
+  background-color: var(--color-polarlight-background);
   color: var(--color-light-text);
   font-size: 11px;
   font-weight: var(--font-weight-semibold);
