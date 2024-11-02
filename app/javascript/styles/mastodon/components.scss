@@ -290,7 +290,7 @@
   &:hover,
   &:active,
   &:focus {
-    color: darken($lighter-text-color, 7%);
+    color: darken(#1f1b23, 7%);
     background-color: rgba($lighter-text-color, 0.15);
   }
 
@@ -299,7 +299,7 @@
   }
 
   &.disabled {
-    color: lighten($lighter-text-color, 20%);
+    color: lighten(#1f1b23, 20%);
     background-color: transparent;
     cursor: default;
   }

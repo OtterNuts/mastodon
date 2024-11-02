@@ -37,15 +37,15 @@ $ui-button-secondary-focus-color: $white !default;
 $ui-button-tertiary-color: $blurple-500 !default;
 $ui-button-tertiary-border-color: $blurple-500 !default;
 
-$primary-text-color: $black !default;
+$primary-text-color: #1f1b23 !default;
 $darker-text-color: $classic-base-color !default;
 $highlight-text-color: darken($ui-highlight-color, 8%) !default;
-$dark-text-color: #444b5d;
+$dark-text-color: #1f1b23;
 $action-button-color: #1f1b23;
 
 $inverted-text-color: $black !default;
 $lighter-text-color: $classic-base-color !default;
-$light-text-color: #444b5d;
+$light-text-color: #1f1b23;
 
 // Newly added colors
 $account-background-color: $white !default;
